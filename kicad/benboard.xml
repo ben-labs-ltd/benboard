@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/benk/dprog/active/benhardware/benboard/benboard.kicad_sch</source>
+    <date>Mon 24 Jul 2023 14:06:52 BST</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>benboard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27e52574-5ff3-464f-b1ed-eb85d7fc863a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fd96956-366a-491e-8675-b4d44141b131</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d01e2842-5281-4230-a1be-df940923ddbc</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>47nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8832c596-1f35-443b-bf4d-d2af777d14f6</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ada70b87-193a-416e-93cf-44db8f7fdda9</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>661adb2b-cb2b-4e27-963e-30e8fae4063b</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ae3b9ca-a6f2-4ebe-ab3e-0a59533f0bde</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>820pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>080bf33d-ee35-4d03-8b02-3eb760f0c865</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8ee27d4-c5a2-4509-b95b-e5d956f571e7</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b46788b8-e60c-4df4-8b20-54c06794cc7d</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28ee8796-6650-4a7c-afcc-c5922a4c66bd</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43a263db-1527-4d14-9867-5d2b77ae037f</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c02bebf-866a-4240-9bc8-e94b148b9f09</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.5pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4986139-a9ef-4720-9a0d-ba58076e9967</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d51ea646-d41c-41dd-8bec-3f645eca97e3</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f47b9a2-e0cf-4b72-a3ab-aee4416bc1cf</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a6bbaf0-91a9-40f9-b5ca-c8d3895edcfe</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c8c96ba-4ab7-4b41-977e-62dd7a47ef95</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d4cd575-ffd1-4255-9c0a-977418625122</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>0.8pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8412e12d-c5b5-483a-9d4a-606feb08ac1b</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad6ea825-f9bc-49f5-ac13-2deef555ab65</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b561e3c1-1fa2-439c-ad26-834b6e7f839e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>853cd093-ee5d-412d-acaf-339a7c25043c</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40543ef9-fb36-4584-b89c-163435fa7e6a</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>15nH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>878e2765-5e25-4410-aaf3-3c7419e8054f</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5db04564-e157-4898-ba23-4442d1fddcf5</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>4.1nH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91bfe8a1-8ab9-4bc1-97b3-8931566198ba</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2dd59beb-f9f3-4179-8e57-825386a4c53c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2a92dab-0918-4424-b901-1491fafdd00a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7330ad9-0f33-469e-ae57-6766f043227e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72134f13-3cda-4b38-928f-8a1cd59cb0fb</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8a23d43-6cc0-4962-9084-2387a4940a9d</tstamps>
+    </comp>
+    <comp ref="RED1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfa08b08-6891-45f5-96d8-782a41eb1b8c</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>055463e5-b58b-449c-ba3e-3f96c75685f7</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01668a7e-5114-4fc9-aea7-88aa95193283</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efca9f69-09cc-41a2-8a9c-496e15385f04</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b27fc3b-f1cc-498b-aed9-a32bdf364c47</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdcd6fb2-9e2e-42e8-8a7c-ef2dffed1026</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c5404b2-32cc-4273-a189-6c34d00ab82c</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43397e65-a23d-4000-947f-0d3358cde2b4</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aad44cfb-0df0-4516-989c-c3a4b479d0b9</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c8666ff-a78e-4b98-80f0-2c8297e9f0e7</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3459c809-0157-43b2-8f91-7ded6c87d331</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8784f7ed-70a6-4e99-80b3-d1d405b5b0c0</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b82c4408-8d96-4398-ad32-3e13aa33c607</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5e042fc-855e-48e0-a599-7197a642b5f3</tstamps>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dbaf6b2-7f10-4c1f-a6b3-14296a93325c</tstamps>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66213360-8efc-473a-ba2f-98cd1db1b65f</tstamps>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cd6f244-b849-4c3a-af72-6ea29757ef80</tstamps>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80020228-fc7d-45ac-8844-30efbb5851ae</tstamps>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62a16bbe-071d-4883-80d6-4f94dcd60e91</tstamps>
+    </comp>
+    <comp ref="SW19">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9cf7b8b-497a-49c1-b489-13b6b37ec6e8</tstamps>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b40321fe-153c-47e3-8dd3-bad143279489</tstamps>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1474a05-202f-46cc-887b-9a441069614d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>nRF52840</value>
+      <footprint>Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm</footprint>
+      <datasheet>http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html</datasheet>
+      <libsource lib="MCU_Nordic" part="nRF52840" description="Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73"/>
+      <property name="ki_keywords" value="MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bc5e437-61fd-4250-8715-d4b49fd30033</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>BQ24075RGT</value>
+      <footprint>Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/bq24075.pdf</datasheet>
+      <libsource lib="Battery_Management" part="BQ24075RGT" description="USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"/>
+      <property name="ki_keywords" value="USB Charger"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34a11b5a-4106-44c7-aa39-30012a4f211e</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32MHz</value>
+      <footprint>Crystal:Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm</footprint>
+      <libsource lib="Device" part="Crystal_GND2" description="Three pin crystal, GND on pin 2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Three pin crystal, GND on pin 2"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44d9ea78-5d4f-4c30-9c98-b19f4bf11f86</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>32.768kHz</value>
+      <footprint>Crystal:Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm</footprint>
+      <libsource lib="Device" part="Crystal_GND2" description="Three pin crystal, GND on pin 2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <property name="ki_description" value="Three pin crystal, GND on pin 2"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5fc5b22-13f3-4871-bcf4-1460c4bc55a2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="BQ24075RGT">
+      <description>USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/bq24075.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24075RGT</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq24075.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TS" type="passive"/>
+        <pin num="2" name="BAT" type="power_out"/>
+        <pin num="3" name="BAT" type="passive"/>
+        <pin num="4" name="~{CE}" type="input"/>
+        <pin num="5" name="EN2" type="input"/>
+        <pin num="6" name="EN1" type="input"/>
+        <pin num="7" name="~{PGOOD}" type="open_collector"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="~{CHG}" type="open_collector"/>
+        <pin num="10" name="OUT" type="power_out"/>
+        <pin num="11" name="OUT" type="passive"/>
+        <pin num="12" name="ILIM" type="passive"/>
+        <pin num="13" name="IN" type="power_in"/>
+        <pin num="14" name="TMR" type="input"/>
+        <pin num="15" name="SYSOFF" type="input"/>
+        <pin num="16" name="ISET" type="passive"/>
+        <pin num="17" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND2">
+      <description>Three pin crystal, GND on pin 2</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Nordic" part="nRF52840">
+      <description>Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73</description>
+      <docs>http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html</docs>
+      <footprints>
+        <fp>Nordic*AQFN*1EP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">nRF52840</field>
+        <field name="Footprint">Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm</field>
+        <field name="Datasheet">http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html</field>
+      </fields>
+      <pins>
+        <pin num="A8" name="AIN7/P0.31" type="bidirectional"/>
+        <pin num="A10" name="AIN5/P0.29" type="bidirectional"/>
+        <pin num="A12" name="AIN0/P0.02" type="bidirectional"/>
+        <pin num="A14" name="P1.15" type="bidirectional"/>
+        <pin num="A16" name="P1.13" type="bidirectional"/>
+        <pin num="A18" name="DEC2" type="passive"/>
+        <pin num="A20" name="P1.10" type="bidirectional"/>
+        <pin num="A22" name="VDD" type="passive"/>
+        <pin num="A23" name="XC2" type="input"/>
+        <pin num="AA24" name="SWDCLK" type="input"/>
+        <pin num="AB2" name="DCCH" type="power_out"/>
+        <pin num="AC5" name="DECUSB" type="passive"/>
+        <pin num="AC9" name="P0.14" type="bidirectional"/>
+        <pin num="AC11" name="P0.16" type="bidirectional"/>
+        <pin num="AC13" name="P0.18/~{RESET}" type="bidirectional"/>
+        <pin num="AC15" name="P0.19" type="bidirectional"/>
+        <pin num="AC17" name="P0.21" type="bidirectional"/>
+        <pin num="AC19" name="P0.23" type="bidirectional"/>
+        <pin num="AC21" name="P0.25" type="bidirectional"/>
+        <pin num="AC24" name="SWDIO" type="bidirectional"/>
+        <pin num="AD2" name="VBUS" type="power_in"/>
+        <pin num="AD4" name="D-" type="bidirectional"/>
+        <pin num="AD6" name="D+" type="bidirectional"/>
+        <pin num="AD8" name="P0.13" type="bidirectional"/>
+        <pin num="AD10" name="P0.15" type="bidirectional"/>
+        <pin num="AD12" name="P0.17" type="bidirectional"/>
+        <pin num="AD14" name="VDD" type="passive"/>
+        <pin num="AD16" name="P0.20" type="bidirectional"/>
+        <pin num="AD18" name="P0.22" type="bidirectional"/>
+        <pin num="AD20" name="P0.24" type="bidirectional"/>
+        <pin num="AD22" name="TRACEDATA0/P1.00" type="bidirectional"/>
+        <pin num="AD23" name="VDD" type="passive"/>
+        <pin num="B1" name="VDD" type="power_in"/>
+        <pin num="B3" name="DCC" type="power_out"/>
+        <pin num="B5" name="DEC4" type="passive"/>
+        <pin num="B7" name="VSS" type="power_in"/>
+        <pin num="B9" name="AIN6/P0.30" type="bidirectional"/>
+        <pin num="B11" name="AIN4/P0.28" type="bidirectional"/>
+        <pin num="B13" name="AIN1/P0.03" type="bidirectional"/>
+        <pin num="B15" name="P1.14" type="bidirectional"/>
+        <pin num="B17" name="P1.12" type="bidirectional"/>
+        <pin num="B19" name="P1.11" type="bidirectional"/>
+        <pin num="B24" name="XC1" type="input"/>
+        <pin num="C1" name="DEC1" type="passive"/>
+        <pin num="D2" name="XL1/P0.00" type="bidirectional"/>
+        <pin num="D23" name="DEC3" type="passive"/>
+        <pin num="E24" name="DEC6" type="passive"/>
+        <pin num="EP" name="VSS" type="passive"/>
+        <pin num="F2" name="XL2/P0.01" type="bidirectional"/>
+        <pin num="F23" name="VSS_PA" type="power_in"/>
+        <pin num="G1" name="P0.26" type="bidirectional"/>
+        <pin num="H2" name="P0.27" type="bidirectional"/>
+        <pin num="H23" name="ANT" type="passive"/>
+        <pin num="J1" name="AIN2/P0.04" type="bidirectional"/>
+        <pin num="J24" name="NFC2/P0.10" type="bidirectional"/>
+        <pin num="K2" name="AIN3/P0.05" type="bidirectional"/>
+        <pin num="L1" name="P0.06" type="bidirectional"/>
+        <pin num="L24" name="NFC1/P0.09" type="bidirectional"/>
+        <pin num="M2" name="TRACECLK/P0.07" type="bidirectional"/>
+        <pin num="N1" name="P0.08" type="bidirectional"/>
+        <pin num="N24" name="DEC5" type="passive"/>
+        <pin num="P2" name="P1.08" type="bidirectional"/>
+        <pin num="P23" name="P1.07" type="bidirectional"/>
+        <pin num="R1" name="TRACEDATA3/P1.09" type="bidirectional"/>
+        <pin num="R24" name="P1.06" type="bidirectional"/>
+        <pin num="T2" name="TRACEDATA2/P0.11" type="bidirectional"/>
+        <pin num="T23" name="P1.05" type="bidirectional"/>
+        <pin num="U1" name="TRACEDATA1/P0.12" type="bidirectional"/>
+        <pin num="U24" name="P1.04" type="bidirectional"/>
+        <pin num="V23" name="P1.03" type="bidirectional"/>
+        <pin num="W1" name="VDD" type="passive"/>
+        <pin num="W24" name="P1.02" type="bidirectional"/>
+        <pin num="Y2" name="VDDH" type="power_in"/>
+        <pin num="Y23" name="P1.01" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>/usr/share/kicad/symbols//Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Nordic">
+      <uri>/usr/share/kicad/symbols//MCU_Nordic.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="ANTENNA">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="D+">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="AD6" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="D-">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="AD4" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="B7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="EP" pinfunction="VSS" pintype="passive"/>
+      <node ref="U1" pin="F23" pinfunction="VSS_PA" pintype="power_in"/>
+      <node ref="U2" pin="15" pinfunction="SYSOFF" pintype="input"/>
+      <node ref="U2" pin="17" pinfunction="VSS" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="~{CE}" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="EN2" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(J1-CC1)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(J1-CC2)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(RED1-A)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="RED1" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(RED1-K)">
+      <node ref="RED1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="~{CHG}" pintype="open_collector"/>
+    </net>
+    <net code="10" name="Net-(U1-ANT)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="H23" pinfunction="ANT" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(U1-DCC)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="B3" pinfunction="DCC" pintype="power_out"/>
+    </net>
+    <net code="12" name="Net-(U1-DCCH)">
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="AB2" pinfunction="DCCH" pintype="power_out"/>
+    </net>
+    <net code="13" name="Net-(U1-DEC1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="C1" pinfunction="DEC1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(U1-DEC3)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="D23" pinfunction="DEC3" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(U1-DEC4)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="B5" pinfunction="DEC4" pintype="passive"/>
+      <node ref="U1" pin="E24" pinfunction="DEC6" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(U1-DEC5)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="N24" pinfunction="DEC5" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(U1-DECUSB)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="AC5" pinfunction="DECUSB" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(U1-XC1)">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="B24" pinfunction="XC1" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(U1-XC2)">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="U1" pin="A23" pinfunction="XC2" pintype="input"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(U1-XL1{slash}P0.00)">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="U1" pin="D2" pinfunction="XL1/P0.00" pintype="bidirectional"/>
+      <node ref="Y2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(U1-XL2{slash}P0.01)">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="U1" pin="F2" pinfunction="XL2/P0.01" pintype="bidirectional"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(U2-ISET)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="ISET" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(U2-TS)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="TS" pintype="passive"/>
+    </net>
+    <net code="24" name="POWER">
+      <node ref="U1" pin="AD8" pinfunction="P0.13" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="RST">
+      <node ref="U1" pin="AC11" pinfunction="P0.16" pintype="bidirectional"/>
+      <node ref="U1" pin="AC13" pinfunction="P0.18/~{RESET}" pintype="bidirectional"/>
+      <node ref="U1" pin="AC9" pinfunction="P0.14" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="SW1">
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="AD10" pinfunction="P0.15" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="SW2">
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="AC15" pinfunction="P0.19" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="SW3">
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="P2" pinfunction="P1.08" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="SW4">
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="AD12" pinfunction="P0.17" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="SW5">
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="AC17" pinfunction="P0.21" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="SW6">
+      <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="N1" pinfunction="P0.08" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="SW7">
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="AD16" pinfunction="P0.20" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="SW8">
+      <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="AC19" pinfunction="P0.23" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="SW9">
+      <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="L1" pinfunction="P0.06" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="SW10">
+      <node ref="SW10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="AD18" pinfunction="P0.22" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="SW11">
+      <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="AC21" pinfunction="P0.25" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="SW12">
+      <node ref="SW12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="H2" pinfunction="P0.27" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="SW13">
+      <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="AD20" pinfunction="P0.24" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="SW14">
+      <node ref="SW14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="AD22" pinfunction="TRACEDATA0/P1.00" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="SW15">
+      <node ref="SW15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="P23" pinfunction="P1.07" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="SW16">
+      <node ref="SW16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="W24" pinfunction="P1.02" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="SW17">
+      <node ref="SW17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="U24" pinfunction="P1.04" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="SW18">
+      <node ref="SW18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="R24" pinfunction="P1.06" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="SW19">
+      <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="Y23" pinfunction="P1.01" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="SW20">
+      <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="V23" pinfunction="P1.03" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="SW21">
+      <node ref="SW21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="T23" pinfunction="P1.05" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="SWDC">
+      <node ref="U1" pin="AA24" pinfunction="SWDCLK" pintype="input"/>
+    </net>
+    <net code="48" name="SWDI">
+      <node ref="U1" pin="AC24" pinfunction="SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="VBAT">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="BAT" pintype="power_out"/>
+      <node ref="U2" pin="3" pinfunction="BAT" pintype="passive"/>
+    </net>
+    <net code="50" name="VBUS">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="U1" pin="AD2" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="51" name="VDDH">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="Y2" pinfunction="VDDH" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U2" pin="11" pinfunction="OUT" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="EN1" pintype="input"/>
+    </net>
+    <net code="52" name="VDD_NRF">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="A22" pinfunction="VDD" pintype="passive"/>
+      <node ref="U1" pin="AD14" pinfunction="VDD" pintype="passive"/>
+      <node ref="U1" pin="AD23" pinfunction="VDD" pintype="passive"/>
+      <node ref="U1" pin="B1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="W1" pinfunction="VDD" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(J1-SHIELD-PadS1)">
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1-AIN0{slash}P0.02-PadA12)">
+      <node ref="U1" pin="A12" pinfunction="AIN0/P0.02" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="unconnected-(U1-AIN1{slash}P0.03-PadB13)">
+      <node ref="U1" pin="B13" pinfunction="AIN1/P0.03" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="unconnected-(U1-AIN2{slash}P0.04-PadJ1)">
+      <node ref="U1" pin="J1" pinfunction="AIN2/P0.04" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="unconnected-(U1-AIN3{slash}P0.05-PadK2)">
+      <node ref="U1" pin="K2" pinfunction="AIN3/P0.05" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(U1-AIN4{slash}P0.28-PadB11)">
+      <node ref="U1" pin="B11" pinfunction="AIN4/P0.28" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(U1-AIN5{slash}P0.29-PadA10)">
+      <node ref="U1" pin="A10" pinfunction="AIN5/P0.29" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="unconnected-(U1-AIN6{slash}P0.30-PadB9)">
+      <node ref="U1" pin="B9" pinfunction="AIN6/P0.30" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(U1-AIN7{slash}P0.31-PadA8)">
+      <node ref="U1" pin="A8" pinfunction="AIN7/P0.31" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="unconnected-(U1-DEC2-PadA18)">
+      <node ref="U1" pin="A18" pinfunction="DEC2" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-NFC1{slash}P0.09-PadL24)">
+      <node ref="U1" pin="L24" pinfunction="NFC1/P0.09" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="unconnected-(U1-NFC2{slash}P0.10-PadJ24)">
+      <node ref="U1" pin="J24" pinfunction="NFC2/P0.10" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(U1-P0.26-PadG1)">
+      <node ref="U1" pin="G1" pinfunction="P0.26" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(U1-P1.10-PadA20)">
+      <node ref="U1" pin="A20" pinfunction="P1.10" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="unconnected-(U1-P1.11-PadB19)">
+      <node ref="U1" pin="B19" pinfunction="P1.11" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="unconnected-(U1-P1.12-PadB17)">
+      <node ref="U1" pin="B17" pinfunction="P1.12" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="unconnected-(U1-P1.13-PadA16)">
+      <node ref="U1" pin="A16" pinfunction="P1.13" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="unconnected-(U1-P1.14-PadB15)">
+      <node ref="U1" pin="B15" pinfunction="P1.14" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="unconnected-(U1-P1.15-PadA14)">
+      <node ref="U1" pin="A14" pinfunction="P1.15" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="unconnected-(U1-TRACECLK{slash}P0.07-PadM2)">
+      <node ref="U1" pin="M2" pinfunction="TRACECLK/P0.07" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="unconnected-(U1-TRACEDATA1{slash}P0.12-PadU1)">
+      <node ref="U1" pin="U1" pinfunction="TRACEDATA1/P0.12" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="unconnected-(U1-TRACEDATA2{slash}P0.11-PadT2)">
+      <node ref="U1" pin="T2" pinfunction="TRACEDATA2/P0.11" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(U1-TRACEDATA3{slash}P1.09-PadR1)">
+      <node ref="U1" pin="R1" pinfunction="TRACEDATA3/P1.09" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="unconnected-(U2-ILIM-Pad12)">
+      <node ref="U2" pin="12" pinfunction="ILIM" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U2-TMR-Pad14)">
+      <node ref="U2" pin="14" pinfunction="TMR" pintype="input+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U2-~{PGOOD}-Pad7)">
+      <node ref="U2" pin="7" pinfunction="~{PGOOD}" pintype="open_collector+no_connect"/>
+    </net>
+  </nets>
+</export>
