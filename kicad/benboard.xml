@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/benk/dprog/active/benhardware/benboard/benboard.kicad_sch</source>
-    <date>Mon 24 Jul 2023 14:06:52 BST</date>
+    <source>/home/benk/dprog/active/benboard/kicad/benboard.kicad_sch</source>
+    <date>Thu 27 Jul 2023 17:12:29 BST</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -277,6 +277,14 @@
       <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>853cd093-ee5d-412d-acaf-339a7c25043c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>~</value>
+      <libsource lib="vik" part="vik-keyboard-connector" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="benboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d0e88fc-6612-4fc4-a3b0-3e35d9596fc9</tstamps>
     </comp>
     <comp ref="L1">
       <value>10uH</value>
@@ -918,6 +926,25 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="vik" part="vik-keyboard-connector">
+      <fields>
+        <field name="Reference">J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_out"/>
+        <pin num="2" name="GND" type="power_out"/>
+        <pin num="3" name="SDA" type="output"/>
+        <pin num="4" name="SCL" type="output"/>
+        <pin num="5" name="RGB_LED_OUT" type="output"/>
+        <pin num="6" name="5V" type="power_out"/>
+        <pin num="7" name="GPIO_AD1" type="output"/>
+        <pin num="8" name="MOSI" type="output"/>
+        <pin num="9" name="GPIO_AD2" type="output"/>
+        <pin num="10" name="SPI_CS" type="output"/>
+        <pin num="11" name="MISO" type="output"/>
+        <pin num="12" name="SCLK" type="output"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Battery_Management">
@@ -934,6 +961,9 @@
     </library>
     <library logical="Switch">
       <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="vik">
+      <uri>/home/benk/dprog/active/benboard/kicad/libraries/vik.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -978,6 +1008,8 @@
       <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND" pintype="power_out"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
@@ -1208,6 +1240,7 @@
       <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="5V" pintype="power_out"/>
       <node ref="U1" pin="AD2" pinfunction="VBUS" pintype="power_in"/>
       <node ref="U2" pin="13" pinfunction="IN" pintype="power_in"/>
     </net>
@@ -1226,6 +1259,7 @@
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="3V3" pintype="power_out"/>
       <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="A22" pinfunction="VDD" pintype="passive"/>
       <node ref="U1" pin="AD14" pinfunction="VDD" pintype="passive"/>
@@ -1239,82 +1273,106 @@
     <net code="54" name="unconnected-(J1-SBU2-PadB8)">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(J1-SHIELD-PadS1)">
-      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    <net code="55" name="unconnected-(J2-GPIO_AD1-Pad7)">
+      <node ref="J2" pin="7" pinfunction="GPIO_AD1" pintype="output"/>
     </net>
-    <net code="56" name="unconnected-(U1-AIN0{slash}P0.02-PadA12)">
+    <net code="56" name="unconnected-(J2-GPIO_AD2-Pad9)">
+      <node ref="J2" pin="9" pinfunction="GPIO_AD2" pintype="output"/>
+    </net>
+    <net code="57" name="unconnected-(J2-MISO-Pad11)">
+      <node ref="J2" pin="11" pinfunction="MISO" pintype="output"/>
+    </net>
+    <net code="58" name="unconnected-(J2-MOSI-Pad8)">
+      <node ref="J2" pin="8" pinfunction="MOSI" pintype="output"/>
+    </net>
+    <net code="59" name="unconnected-(J2-RGB_LED_OUT-Pad5)">
+      <node ref="J2" pin="5" pinfunction="RGB_LED_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J2-SCL-Pad4)">
+      <node ref="J2" pin="4" pinfunction="SCL" pintype="output"/>
+    </net>
+    <net code="61" name="unconnected-(J2-SCLK-Pad12)">
+      <node ref="J2" pin="12" pinfunction="SCLK" pintype="output"/>
+    </net>
+    <net code="62" name="unconnected-(J2-SDA-Pad3)">
+      <node ref="J2" pin="3" pinfunction="SDA" pintype="output"/>
+    </net>
+    <net code="63" name="unconnected-(J2-SPI_CS-Pad10)">
+      <node ref="J2" pin="10" pinfunction="SPI_CS" pintype="output"/>
+    </net>
+    <net code="64" name="unconnected-(U1-AIN0{slash}P0.02-PadA12)">
       <node ref="U1" pin="A12" pinfunction="AIN0/P0.02" pintype="bidirectional"/>
     </net>
-    <net code="57" name="unconnected-(U1-AIN1{slash}P0.03-PadB13)">
+    <net code="65" name="unconnected-(U1-AIN1{slash}P0.03-PadB13)">
       <node ref="U1" pin="B13" pinfunction="AIN1/P0.03" pintype="bidirectional"/>
     </net>
-    <net code="58" name="unconnected-(U1-AIN2{slash}P0.04-PadJ1)">
+    <net code="66" name="unconnected-(U1-AIN2{slash}P0.04-PadJ1)">
       <node ref="U1" pin="J1" pinfunction="AIN2/P0.04" pintype="bidirectional"/>
     </net>
-    <net code="59" name="unconnected-(U1-AIN3{slash}P0.05-PadK2)">
+    <net code="67" name="unconnected-(U1-AIN3{slash}P0.05-PadK2)">
       <node ref="U1" pin="K2" pinfunction="AIN3/P0.05" pintype="bidirectional"/>
     </net>
-    <net code="60" name="unconnected-(U1-AIN4{slash}P0.28-PadB11)">
+    <net code="68" name="unconnected-(U1-AIN4{slash}P0.28-PadB11)">
       <node ref="U1" pin="B11" pinfunction="AIN4/P0.28" pintype="bidirectional"/>
     </net>
-    <net code="61" name="unconnected-(U1-AIN5{slash}P0.29-PadA10)">
+    <net code="69" name="unconnected-(U1-AIN5{slash}P0.29-PadA10)">
       <node ref="U1" pin="A10" pinfunction="AIN5/P0.29" pintype="bidirectional"/>
     </net>
-    <net code="62" name="unconnected-(U1-AIN6{slash}P0.30-PadB9)">
+    <net code="70" name="unconnected-(U1-AIN6{slash}P0.30-PadB9)">
       <node ref="U1" pin="B9" pinfunction="AIN6/P0.30" pintype="bidirectional"/>
     </net>
-    <net code="63" name="unconnected-(U1-AIN7{slash}P0.31-PadA8)">
+    <net code="71" name="unconnected-(U1-AIN7{slash}P0.31-PadA8)">
       <node ref="U1" pin="A8" pinfunction="AIN7/P0.31" pintype="bidirectional"/>
     </net>
-    <net code="64" name="unconnected-(U1-DEC2-PadA18)">
+    <net code="72" name="unconnected-(U1-DEC2-PadA18)">
       <node ref="U1" pin="A18" pinfunction="DEC2" pintype="passive+no_connect"/>
     </net>
-    <net code="65" name="unconnected-(U1-NFC1{slash}P0.09-PadL24)">
+    <net code="73" name="unconnected-(U1-NFC1{slash}P0.09-PadL24)">
       <node ref="U1" pin="L24" pinfunction="NFC1/P0.09" pintype="bidirectional"/>
     </net>
-    <net code="66" name="unconnected-(U1-NFC2{slash}P0.10-PadJ24)">
+    <net code="74" name="unconnected-(U1-NFC2{slash}P0.10-PadJ24)">
       <node ref="U1" pin="J24" pinfunction="NFC2/P0.10" pintype="bidirectional"/>
     </net>
-    <net code="67" name="unconnected-(U1-P0.26-PadG1)">
+    <net code="75" name="unconnected-(U1-P0.26-PadG1)">
       <node ref="U1" pin="G1" pinfunction="P0.26" pintype="bidirectional"/>
     </net>
-    <net code="68" name="unconnected-(U1-P1.10-PadA20)">
+    <net code="76" name="unconnected-(U1-P1.10-PadA20)">
       <node ref="U1" pin="A20" pinfunction="P1.10" pintype="bidirectional"/>
     </net>
-    <net code="69" name="unconnected-(U1-P1.11-PadB19)">
+    <net code="77" name="unconnected-(U1-P1.11-PadB19)">
       <node ref="U1" pin="B19" pinfunction="P1.11" pintype="bidirectional"/>
     </net>
-    <net code="70" name="unconnected-(U1-P1.12-PadB17)">
+    <net code="78" name="unconnected-(U1-P1.12-PadB17)">
       <node ref="U1" pin="B17" pinfunction="P1.12" pintype="bidirectional"/>
     </net>
-    <net code="71" name="unconnected-(U1-P1.13-PadA16)">
+    <net code="79" name="unconnected-(U1-P1.13-PadA16)">
       <node ref="U1" pin="A16" pinfunction="P1.13" pintype="bidirectional"/>
     </net>
-    <net code="72" name="unconnected-(U1-P1.14-PadB15)">
+    <net code="80" name="unconnected-(U1-P1.14-PadB15)">
       <node ref="U1" pin="B15" pinfunction="P1.14" pintype="bidirectional"/>
     </net>
-    <net code="73" name="unconnected-(U1-P1.15-PadA14)">
+    <net code="81" name="unconnected-(U1-P1.15-PadA14)">
       <node ref="U1" pin="A14" pinfunction="P1.15" pintype="bidirectional"/>
     </net>
-    <net code="74" name="unconnected-(U1-TRACECLK{slash}P0.07-PadM2)">
+    <net code="82" name="unconnected-(U1-TRACECLK{slash}P0.07-PadM2)">
       <node ref="U1" pin="M2" pinfunction="TRACECLK/P0.07" pintype="bidirectional"/>
     </net>
-    <net code="75" name="unconnected-(U1-TRACEDATA1{slash}P0.12-PadU1)">
+    <net code="83" name="unconnected-(U1-TRACEDATA1{slash}P0.12-PadU1)">
       <node ref="U1" pin="U1" pinfunction="TRACEDATA1/P0.12" pintype="bidirectional"/>
     </net>
-    <net code="76" name="unconnected-(U1-TRACEDATA2{slash}P0.11-PadT2)">
+    <net code="84" name="unconnected-(U1-TRACEDATA2{slash}P0.11-PadT2)">
       <node ref="U1" pin="T2" pinfunction="TRACEDATA2/P0.11" pintype="bidirectional"/>
     </net>
-    <net code="77" name="unconnected-(U1-TRACEDATA3{slash}P1.09-PadR1)">
+    <net code="85" name="unconnected-(U1-TRACEDATA3{slash}P1.09-PadR1)">
       <node ref="U1" pin="R1" pinfunction="TRACEDATA3/P1.09" pintype="bidirectional"/>
     </net>
-    <net code="78" name="unconnected-(U2-ILIM-Pad12)">
+    <net code="86" name="unconnected-(U2-ILIM-Pad12)">
       <node ref="U2" pin="12" pinfunction="ILIM" pintype="passive+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U2-TMR-Pad14)">
+    <net code="87" name="unconnected-(U2-TMR-Pad14)">
       <node ref="U2" pin="14" pinfunction="TMR" pintype="input+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U2-~{PGOOD}-Pad7)">
+    <net code="88" name="unconnected-(U2-~{PGOOD}-Pad7)">
       <node ref="U2" pin="7" pinfunction="~{PGOOD}" pintype="open_collector+no_connect"/>
     </net>
   </nets>
