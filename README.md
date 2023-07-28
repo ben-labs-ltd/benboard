@@ -1,7 +1,7 @@
 # BenBoard
 
-![benboard logo](marketing/board01devl.png)
-![benboard PCB](marketing/BenBoard.svg)
+![benboard logo](marketing/BenBoard.svg)
+![benboard svg](marketing/board01devl.png)
 
 The highly customisable, open source, premium 42 key ergo mechanical marvel of elegance
 
