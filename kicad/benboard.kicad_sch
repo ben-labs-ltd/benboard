@@ -3047,7 +3047,7 @@
     (property "Value" "4.7uF" (at 95.25 31.75 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 99.06 34.5948 0)
+    (property "Footprint" "Connector_FFC-FPC:TE_1-84953-2_1x12-1MP_P1.0mm_Horizontal" (at 99.06 34.5948 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 35.56 0)
