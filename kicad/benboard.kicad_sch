@@ -6089,7 +6089,7 @@
     (property "Value" "Conn_Coaxial" (at 28.2332 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical" (at 27.94 102.87 0)
+    (property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" (at 27.94 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 27.94 102.87 0)
