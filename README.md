@@ -30,7 +30,7 @@ Show your interest at https://ben-labs.co.uk
 | Supplies: SPI            | Required                | :heavy_check_mark: |
 | Supplies: I2C            | Required                | :heavy_check_mark: |
 | I2C on main PCB          | Discouraged             | :x:                |
-| I2C pull ups             | Informative             | 2.2kΩ              |
+| I2C pull ups             | Informative             | :x:                |
 | Supplies: RGB            | Required                | :heavy_check_mark: |
 | Supplies: Extra GPIO 1   | Required                | :heavy_check_mark: (Analogue and Digital) |
 | Supplies: Extra GPIO 2   | Required                | :heavy_check_mark: (Analogue and Digital) |
